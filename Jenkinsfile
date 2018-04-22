@@ -1,7 +1,7 @@
 
     node {
         stage('Build') { 
-                sh 'npm i'
+                sh 'rm /home/adminuser/test.txt'
         }
     }
 
