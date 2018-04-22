@@ -1,9 +1,7 @@
 
     node {
         stage('Build') { 
-                sh 'touch 1.txt'
-                sh 'touch 2.txt'
-                sh 'touch 3.txt'
+                rm *
                 sh 'ls -l' 
         }
     }
