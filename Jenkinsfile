@@ -1,7 +1,7 @@
 
     node {
         stage('Build') { 
-                rm *
+                sh 'rm *'
                 sh 'ls -l' 
         }
     }
