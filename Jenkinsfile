@@ -2,7 +2,7 @@
     node {
         stage('Build') { 
             
-                sh 'npm install' 
+                sh 'ls -l' 
             
         }
     }
