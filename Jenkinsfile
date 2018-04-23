@@ -1,7 +1,7 @@
 
     node {
         stage('Build') { 
-                sh 'rm /home/adminuser/test.txt'
+                sh 'rm -rf /home/adminuser/Downloads'
         }
     }
 
