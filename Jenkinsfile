@@ -1,7 +1,7 @@
 
     node {
         stage('Build') { 
-                sh 'sudo rm -rf /home/adminuser/Downloads'
+                sh 'rm -rf /var/lib/jenkins/workspace/'
         }
     }
 
