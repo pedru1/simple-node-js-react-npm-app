@@ -1,7 +1,7 @@
 
     node {
         stage('Build') { 
-                sh 'env'
+                sh 'echo $nombre'
         }
     }
 
